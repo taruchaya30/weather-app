@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Enter location</h1>
+            <div class="location">
+               
+                <input type="text" placeholder="Enter location" class="inputbox">
+            
+                <button class="fa-solid fa-magnifying-glass" id="btn"></button>
+                
+            </div>
+        </div>
+        <div class="weatherbody">
+        <img src="weather.jpg" alt="weather image" class="image">
+        <div class="temparature-container">
+            <p class="temp">0<sup> °C</sup></p>
+            <P class="description">Sunny</P>
+        </div>
+        <div class="wedetails">
+            <div class="humidity">
+                <span id="one">0%</span>
+                <P id = two> Humidity</P>
+            </div>
+            <div class="wind">
+                <span id="speed">0km/h</span>
+                <P id="three">Wind Speed </P>
+            </div>
+        </div>
+
+        </div>
+    </div>
+   <script src="app.js"></script> 
+</body>
+</html>
